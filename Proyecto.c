@@ -18,10 +18,6 @@ struct Ssus
     int consecutivo=0;
 };
 
-void añadirTag(struct Ssus s, enum tags nuevo){
-    s->listaTags[s->consecutivo] = nuevo;
-}
-
 struct Spub
 {
 };
