@@ -30,7 +30,7 @@ struct Ssus
 
 
 
-void main()
+void main(int argc, char **argv)
 {
     /// se necesitan 3 pipes
     int fpubSC[2];/// uno para conectar publicaciones y el SC
